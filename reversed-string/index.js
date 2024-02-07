@@ -6,10 +6,7 @@
  /*/
 
 function solution(str) {
-  let splitString = str.split("");
-  let reverseString = splitString.reverse();
-  let joinStringReverse = reverseString.join("");
-  return joinStringReverse;
+  return str.split("").reverse().join("");
 }
 
 console.log(solution("pajar"));

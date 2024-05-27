@@ -11,3 +11,5 @@ function digitize(n) {
   const digits = Array.from(String(n), Number).reverse();
   return digits;
 }
+
+console.log(digitize(35231))

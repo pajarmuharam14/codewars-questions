@@ -13,7 +13,7 @@ patrick feeney => P.F
 function abbrevName(name) {
   let words = name.split(" ");
   let getFirstLetter = words
-    .map((word) => word.charAt(0))
+    .map((word) => word.charAt())
     .join(".")
     .toUpperCase();
   return getFirstLetter;
